@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prosperity Circles</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script language="javascript" src="scripts/java.js"></script>
+</head>
+
+<style>
+  body.home {
+    background-image: url('images/background.jpg');
+}
+</style>
+
+<body class="home">
+  <font color="Black">
+    <h1 align="center">Properity Circles</h1>
+    <p align="center"><i>We should help each and every poor to make poverty helpless.</i></p>
+  </font>  
+  <hr style="height: 3px; background-color: black;">
+    <!--Buttons to other pages-->
+    <div class="container">
+        <a class="button-54" href="home.html">Home</a>
+        <a class="button-54" href="aboutus.html">About Us</a>
+        <a class="button-54" href="TheirStory.html">Their Story</a>
+        <a class="button-54" href="fundmepage.html">Help us out</a>
+        <a class="button-54" href="contact.html">Contact Us</a> <br>
+        </div>
+
+    <font face="Courier" size="6">
+        <h2 align="center">Why do people <br>
+                            have to suffer!! </h2>
+    </font>
+
+    <h4 align="center"><i>"Is there for honesty poverty <br>
+      That hings his head, an' a' that; <br>
+      The coward slave - we pass him by,<br>
+      We dare be poor for a' that!" - Robert Burns</i></h4>
+
+      <div class="row">
+        <div class="column">
+          <img src="images/home2.jpg" alt="" style="width:80%">
+        </div>
+        <div class="column">
+          <img src="images/home3.jpeg" alt="" style="width:80%">
+        </div>
+        <div class="column">
+          <img src="images/home4.png" alt="" style="width:80%">
+        </div>
+      </div> <br>
+
+      <font size="8" face="Copperplate" color="white">
+      <h1"><marquee behavior="20" direction="right" color="black">HELP STOP POVERTY!!</marquee></h1>
+      </font>
+
+
+      <div class="quote-of-the-day">
+        <h3 align="center">Quote of the Day</h3>
+        <blockquote>
+          <p id="quote-text">"The best way to predict the future is to create it." - Peter Drucker</p>
+          <p id="quote-author">- Peter Drucker</p>
+        </blockquote>
+        <button id="new-quote-button" onclick="generateRandomQuote()">Get Another Quote</button>
+      </div>
+
+      <div class="newsletter-section">
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Stay informed about our latest initiatives and events.</p>
+        <form action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit" id="myButton">Subscribe</button>
+        </form>
+    </div>
+<br>
+<br>
+      <footer>
+        ©2023  <b>Beyond Borders</b>. All Rights Reseved
+        </footer>
+</body>
+</html>
